@@ -6,7 +6,7 @@ Play around with the finished project [here](http://schools.brianhamilton.me/).
 
 1. Download Python and [PostgreSQL](https://www.postgresql.org/).
 
-2. Set up a local database called **school_data** (or anything you'd like) or use a Postgres database supplied by Heroku.
+2. Set up a local database called **school_data** (or anything you'd like).
 
 3. Clone the repository or download the zip file for this project.
 
@@ -15,8 +15,11 @@ Play around with the finished project [here](http://schools.brianhamilton.me/).
     ```
     python initialize_db.py
     ```
+    
 ---
 
 The geocoding and finished output/analysis function calls are commented out for simplicity. Just simply uncomment them to run them. For now, the geocoded coordinates and output files are included in this repository.
 
-The rest of the project, including the source code for the Node.js/React.js application will be added in the coming days.
+In order to run the geocoding API calls youself, you will need to get a Google Maps API key.
+
+The rest of the project, including the source code for the Node.js/React.js, application will be added in the coming days.

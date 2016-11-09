@@ -193,7 +193,7 @@ if __name__ == "__main__":
             file_object = raw_crime_file
         process_file(conn, i, is_file, file_object)
 
-    # geolocator = GoogleV3(api_key='AIzaSyCDuxB0IVddOAnNSuLB8hfDbCdwOSNYdVs', domain='maps.googleapis.com', scheme='https', timeout=10000)
+    # geolocator = GoogleV3(api_key='<API key goes here>', domain='maps.googleapis.com', scheme='https', timeout=10000)
 
     # geocode(geolocator, conn) #grab data from database and geocode address
     insert_geocode(conn) #insert geocoded data from csv into database
